@@ -77,13 +77,13 @@ export function Header() {
           </Sheet>
         </div>
 
-        <div className="flex-1 flex justify-center">
+        <div className="flex-1 flex justify-end md:justify-center">
           <Link href="/" className="text-2xl text-[#37447E] font-bold">
             Landing
           </Link>
         </div>
 
-        <div>
+        <div className="hidden md:flex">
           <Button className="bg-[#111B47] hover:bg-[#1A237E]/90 z-50" size="lg">
             Buy Now
           </Button>

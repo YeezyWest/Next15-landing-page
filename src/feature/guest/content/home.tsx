@@ -5,7 +5,7 @@ export function Home() {
   return (
     <>
       <section className="relative mt-24 lg:mt-0 lg:h-[125vh] flex items-center">
-        <div className="z-40 hidden lg:block">
+        <div className="z-20 hidden lg:block">
           <Image
             src={"/img/home.png"}
             alt="Product illustration"
@@ -16,7 +16,7 @@ export function Home() {
           />
         </div>
 
-        <div className="container">
+        <div className="container z-30">
           <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center text-center lg:text-left">
             <div className="space-y-6">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
@@ -56,7 +56,7 @@ export function Home() {
               />
             </div>
             <div className="space-y-6 text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#091133]">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#091133]">
                 Light, Fast & Powerful
               </h2>
               <p className="text-base sm:text-lg text-[#6F7CB2] max-w-xl mx-auto lg:mx-0 leading-relaxed">
@@ -93,7 +93,7 @@ export function Home() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 md:gap-12 items-center lg:grid-cols-2">
             <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#1A237E]">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#1A237E]">
                 Light, Fast & Powerful
               </h2>
               <p className="text-base sm:text-lg text-[#5C6BC0] max-w-xl mx-auto lg:mx-0 leading-relaxed">
@@ -119,7 +119,7 @@ export function Home() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 md:gap-12 items-center lg:grid-cols-2">
             <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#1A237E]">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#1A237E]">
                 Light, Fast & Powerful
               </h2>
               <p className="text-base sm:text-lg text-[#5C6BC0] max-w-xl mx-auto lg:mx-0 leading-relaxed">
@@ -145,7 +145,7 @@ export function Home() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 md:gap-12 items-center lg:grid-cols-2">
             <div className="space-y-4 sm:space-y-6 text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#1A237E]">
+              <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#1A237E]">
                 Light, Fast & Powerful
               </h2>
               <p className="text-base sm:text-lg text-[#5C6BC0] max-w-xl mx-auto lg:mx-0 leading-relaxed">
